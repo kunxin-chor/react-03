@@ -6,6 +6,7 @@ import {Image} from './Image.js'
 import Content from './Content.js'
 import Alert from './Alert.js'
 import Counter from './Counter.js'
+import Feedback from "./Feedback.js"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
        <Image/>
         <Content/>
         <Counter number={3}/>
+        <Feedback/>
       
       </div>
     </div>
