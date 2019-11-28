@@ -17,6 +17,7 @@ export default class Feedback extends React.Component {
     }
     
     handleChange(event) {
+        // the name in the form should match the state variable's namecho
         let fieldName = event.target.name; // email
         this.setState({
             [fieldName]: event.target.value
